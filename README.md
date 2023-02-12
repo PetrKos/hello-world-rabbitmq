@@ -5,7 +5,7 @@ docker compose up
 
 will pull rabbitmq image and will create a container.
 Just run the app and it will automatically create the exchange
-the queue. 
+and the queue. 
 
 make a POST request  for example 
 
