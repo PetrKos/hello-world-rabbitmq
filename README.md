@@ -18,4 +18,10 @@ Copy code
   "quantity": 4,
   "price": 14
 }
+
+access rabbit mq admin 
+http://localhost:15672/#/
+
+urname and password: guest
+
 Observe the communication in the logs to see the results. That's it!
