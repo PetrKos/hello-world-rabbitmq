@@ -1,19 +1,21 @@
-# hello-world-rabbitmq
-A "hello world" RabbitMQ project just to create and connect a simple producer and consumer
+A "Hello World" RabbitMQ Project
+This project is a simple example of how to create and connect a producer and consumer in RabbitMQ.
 
-docker compose up
+Running the Project
+To run the project, simply execute the following command:
 
-will pull rabbitmq image and will create a container.
-Just run the app and it will automatically create the exchange
-and the queue. 
+Copy code
+docker-compose up
+This will pull the RabbitMQ image and create a container. Once the app is running, it will automatically create the exchange and the queue.
 
-make a POST request  for example 
+Making a POST Request
+You can make a POST request to the following JSON payload:
 
+json
+Copy code
 {
-    "name":"chicken tortiya", //String
-    "quantity": 4,  //int   
-    "price":14  //int
+  "name": "chicken tortiya",
+  "quantity": 4,
+  "price": 14
 }
-
-Observe the communication to the logs.
-that's it.
+Observe the communication in the logs to see the results. That's it!
